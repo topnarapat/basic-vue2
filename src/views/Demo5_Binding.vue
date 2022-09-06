@@ -7,10 +7,10 @@
     <a :href="facebook">Facebook</a>
     <div :class="errorClass">Narapat</div>
     <div :class="[errorClass, colorClass]">Top</div>
-    <div :class="false ? errorClass : colorClass">Top2</div>
-    <div :style="{color: fontColor}">Tangfa</div>
-    <div :style="styleObj">Yaowalak</div>
-    <div :style="isActive ? styleObj : ''">Chopper</div>
+    <div :class="false ? errorClass : colorClass">Hi</div>
+    <div :style="{color: fontColor}">Test</div>
+    <div :style="styleObj">Demo</div>
+    <div :style="isActive ? styleObj : ''">Hello</div>
     <button @click="isActive = !isActive">Toggle</button>
   </div>
 </template>
